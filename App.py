@@ -73,7 +73,7 @@ if st.button('Predecir'):
         st.header('El Digito es : ' + str(res))
         client1.on_publish = on_publish                            
         client1.connect(broker,port)  
-        message =json.dumps({"Digito":result.get("GET_TEXT").strip()})
+        message =json.dumps({"Digito":res})
         ret= client1.publish("Piso", message)
 
     
