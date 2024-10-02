@@ -4,4 +4,4 @@ matplotlib
 streamlit-drawable-canvas 
 matplotlip
 #python_version == 3.9
-paho-mqtt
+paho-mqtt==1.6.0
